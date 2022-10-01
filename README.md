@@ -19,7 +19,7 @@ You need to override two things
 
 
 If you don't know what credentials must be here follow this instruction:
-3. Open AWS console, then IAM page. On the left menu you can find User groups menu. Open it and then create a group.
+1. Open AWS console, then IAM page. On the left menu you can find User groups menu. Open it and then create a group.
 When you create a group. Note that you must attach policy inside `Attach permissions policies` part add `AmazonSNSFullAccess`.
-4. After creating group, we need to create user. Don't forget to checked `Access key - Programmatic access` checkbox and attach to group which you create above.
-5. After creating user you can find credentials this user page.
+2. After creating group, we need to create user. Don't forget to checked `Access key - Programmatic access` checkbox and attach to group which you create above.
+3. After creating user you can find credentials this user page.
